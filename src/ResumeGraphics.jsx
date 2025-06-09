@@ -33,7 +33,12 @@ export default function ResumeGraphics() {
         marginBottom: 40,
       }}>
         <h1 style={{ color: '#2471a3', marginBottom: 16 }}>Testing det.</h1>
-        <h2 style={{ color: '#34495e', marginBottom: 24 }}>{name}</h2>
+        <h2 style={{ color: '#34495e', marginBottom: 24, animation: 'blinker 1s linear infinite' }}>{name}</h2>
+        <style>{`
+          @keyframes blinker {
+            50% { opacity: 0; }
+          }
+        `}</style>
         <section style={{ marginBottom: 32 }}>
           <h3 style={{ color: '#5dade2', marginBottom: 8 }}>Skills</h3>
           <ul style={{ listStyle: 'none', padding: 0 }}>
