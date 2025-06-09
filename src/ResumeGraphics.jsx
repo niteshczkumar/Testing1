@@ -7,9 +7,9 @@ export default function ResumeGraphics() {
   const [skills] = useState(['Java', 'Python', 'Cy SEcurity']);
   const [skillLevels] = useState([7, 7, 7]); // Out of 10
   const [experienceTitles] = useState(['Software Engineer', 'Intern']);
-  const [experienceYears] = useState([3, 1]);
-  const [education] = useState(['B.Tech Computer Science', 'UG']);
-  const [educationYears] = useState([2026, 2022]);
+  const [experienceYears] = useState(["Forging", "Since 19th MAy 2025"]);
+  const [education] = useState(['B.Tech Computer Science:UG', 'High School']);
+  const [educationYears] = useState([2026, 2021]);
 
   return (
     <div style={{
