@@ -38,7 +38,7 @@ export default function ResumeGraphics() {
           <h3 style={{ color: '#5dade2', marginBottom: 8 }}>Skills</h3>
           <ul style={{ listStyle: 'none', padding: 0 }}>
             {skills.map((skill, i) => (
-              <li key={skill} style={{ marginBottom: 8, display: 'flex', alignItems: 'center' }}>
+              <li key={skill} style={{ marginBottom: 8, display: 'flex', alignItems: 'center', paddingLeft: '2em' }}>
                 <span style={{ width: 100 }}>{skill}</span>
                 <div style={{
                   background: '#e0eafc',
@@ -65,7 +65,7 @@ export default function ResumeGraphics() {
           <h3 style={{ color: '#5dade2', marginBottom: 8 }}>Experience</h3>
           <ul style={{ listStyle: 'none', padding: 0 }}>
             {experienceTitles.map((title, i) => (
-              <li key={title} style={{ marginBottom: 8 }}>
+              <li key={title} style={{ marginBottom: 8, paddingLeft: '2em' }}>
                 <span style={{ fontWeight: 'bold' }}>{title}</span> — {experienceYears[i]} year(s)
               </li>
             ))}
@@ -75,12 +75,13 @@ export default function ResumeGraphics() {
           <h3 style={{ color: '#5dade2', marginBottom: 8 }}>Education</h3>
           <ul style={{ listStyle: 'none', padding: 0 }}>
             {education.map((ed, i) => (
-              <li key={ed} style={{ marginBottom: 8 }}>
+              <li key={ed} style={{ marginBottom: 8, paddingLeft: '2em' }}>
                 <span style={{ fontWeight: 'bold' }}>{ed}</span> ({educationYears[i]})
               </li>
             ))}
           </ul>
         </section>
+        <h4 style={{ color: '#34495e', marginBottom: 32 }}>{Thank for your time}</h4>
       </div>
     </div>
   );
