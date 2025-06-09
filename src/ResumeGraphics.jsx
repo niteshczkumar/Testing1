@@ -81,7 +81,7 @@ export default function ResumeGraphics() {
             ))}
           </ul>
         </section>
-        <h4 style={{ color: '#34495e', marginBottom: 32 }}>{Thank for your time}</h4>
+        <h4 style={{ color: '#34495e', marginBottom: 32 }}>Thank you for your time</h4>
       </div>
     </div>
   );
